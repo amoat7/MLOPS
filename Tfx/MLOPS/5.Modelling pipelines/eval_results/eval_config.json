@@ -1,0 +1,45 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "label"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "BinaryAccuracy"
+          },
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "FalsePositives"
+          },
+          {
+            "className": "TruePositives"
+          },
+          {
+            "className": "FalseNegatives"
+          },
+          {
+            "className": "TrueNegatives"
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.33.0",
+  "dataLocation": "./pipeline/CsvExampleGen/examples/124/Split-eval/*",
+  "fileFormat": "tfrecords",
+  "modelLocations": {
+    "": "./pipeline/Trainer/model/224/Format-Serving"
+  }
+}

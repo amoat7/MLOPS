@@ -1,0 +1,7 @@
+pipeline
+*.pyc
+*.sh
+assets
+*.log
+*.pb
+variables
