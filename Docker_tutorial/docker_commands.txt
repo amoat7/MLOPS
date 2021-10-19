@@ -1,5 +1,6 @@
 docker run - create and start a container
-docker images
+docker images - list images
+docker image rm <id> - removes images
 docker ps - list containers
 docker ps --all - list all containers 
 docker start -a <id> - start container id and print output
@@ -7,6 +8,7 @@ docker system prune - removes stopped containers
 docker logs <id> - print logs of container
 docker stop <id> - stops a container on its own time
 docker kill <id> - stops a container immediately
-docker exec -it <id> <cmd> - execute commands in a container (-t - nice formatting)
-docker exec -it <id> sh - get full terminal access (no need for repeat <cmd> commands)
-docker run -it busybox sh - get a new container with sh (prevents other processes from running)
+docker exec -it <id> <cmd> - execute commands in a running container (-t - nice formatting)
+docker exec -it <id> sh - get full terminal access 
+docker run -it busybox sh - start a new container with sh (prevents other processes from running)
+docker build . 
