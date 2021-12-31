@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T09:03:52.678Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Ifu6swFZ_XNjN5bnFBhq" version="15.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-31T09:05:26.841Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="W7aqCZFjyX1GkMWlG0Ra" version="15.9.6" type="github" pages="2">
   <diagram id="Ll1QlumUQR3pZ5yUz-EU" name="Page-1">
     <mxGraphModel dx="1119" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,16 +108,16 @@
         <mxCell id="qLlGE6cPjq1xSiXU1XvQ-23" value="Model sever" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
           <mxGeometry x="1040" y="270" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
+        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-24" value="Tensorflow data validation (tfdv)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
           <mxGeometry x="210" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
+        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-25" value="Tensorflow&amp;nbsp; Transform (tft)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
           <mxGeometry x="400" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
+        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-26" value="Tensorflow Model Analysis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
           <mxGeometry x="827" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
+        <mxCell id="qLlGE6cPjq1xSiXU1XvQ-27" value="Tensorflow Serving" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
           <mxGeometry x="1040" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
