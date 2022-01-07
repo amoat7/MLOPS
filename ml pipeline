@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T18:48:45.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="O2fR8V3yrTTD1RqBOGS2" version="16.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-07T19:06:30.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QGRdzh4tANeNJhfTvn7H" version="16.2.1" type="github" pages="3">
   <diagram id="Ll1QlumUQR3pZ5yUz-EU" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,8 +131,41 @@
       <root>
         <mxCell id="oQLO-Vvc0zlfKHINRxK4-0" />
         <mxCell id="oQLO-Vvc0zlfKHINRxK4-1" parent="oQLO-Vvc0zlfKHINRxK4-0" />
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-0" value="Trainer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
-          <mxGeometry x="365" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="210" as="targetPoint" />
+            <mxPoint x="450" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-22" value="Trainer component" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="390" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-24" value="&lt;b&gt;_gzip_reader_fn&lt;/b&gt; - loads compressed dataset" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="50" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-25" value="&lt;b&gt;_input_fn&lt;/b&gt; - creates batches of features and labels" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="300" y="210" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-26" value="&lt;b&gt;model_builder&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-27" value="&lt;b&gt;_get_serve_tf_examples_fn - &lt;/b&gt;parses serialized inputs and applies tft" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="650" y="210" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-31" value="&lt;b&gt;run_fn - &lt;/b&gt;runs the model&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="510" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
