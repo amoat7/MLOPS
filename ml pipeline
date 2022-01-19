@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T20:30:18.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="JMC2n4JpRrX7lNG20d3I" version="16.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-19T09:15:27.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="a_ewS9GnFrqfKZkkqp_u" version="16.2.3" type="github" pages="5">
   <diagram id="Ll1QlumUQR3pZ5yUz-EU" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8d_U_5EOl0JvLn9gacrS" name="Page-2">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qLlGE6cPjq1xSiXU1XvQ-0" />
         <mxCell id="qLlGE6cPjq1xSiXU1XvQ-1" parent="qLlGE6cPjq1xSiXU1XvQ-0" />
@@ -120,58 +120,61 @@
         <mxCell id="qLlGE6cPjq1xSiXU1XvQ-27" value="Tensorflow Serving" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="qLlGE6cPjq1xSiXU1XvQ-1" vertex="1">
           <mxGeometry x="1040" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WGV5cfFY52Vc_0R7aSQo-0" value="Tuner" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="qLlGE6cPjq1xSiXU1XvQ-1">
+        <mxCell id="WGV5cfFY52Vc_0R7aSQo-0" value="Tuner" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="qLlGE6cPjq1xSiXU1XvQ-1" vertex="1">
           <mxGeometry x="610" y="270" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="MruT8SGo60uZ5h6gbCzV" name="Page-3">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="oQLO-Vvc0zlfKHINRxK4-0" />
         <mxCell id="oQLO-Vvc0zlfKHINRxK4-1" parent="oQLO-Vvc0zlfKHINRxK4-0" />
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="210" as="targetPoint" />
             <mxPoint x="450" y="175" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-25">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-26">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-27">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-31">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" source="EVU7qZ22Sq5hBSIbINys-22" target="EVU7qZ22Sq5hBSIbINys-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-22" value="Trainer component" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-22" value="Trainer component" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" vertex="1">
           <mxGeometry x="390" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-24" value="&lt;b&gt;_gzip_reader_fn&lt;/b&gt; - loads compressed dataset" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-24" value="&lt;b&gt;_gzip_reader_fn&lt;/b&gt; - loads compressed dataset" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" vertex="1">
           <mxGeometry x="50" y="210" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-25" value="&lt;b&gt;_input_fn&lt;/b&gt; - creates batches of features and labels" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-25" value="&lt;b&gt;_input_fn&lt;/b&gt; - creates batches of features and labels" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" vertex="1">
           <mxGeometry x="300" y="210" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-26" value="&lt;b&gt;model_builder&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-26" value="&lt;b&gt;model_builder&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" vertex="1">
           <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-27" value="&lt;b&gt;_get_serve_tf_examples_fn - &lt;/b&gt;parses serialized inputs and applies tft" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-27" value="&lt;b&gt;_get_serve_tf_examples_fn - &lt;/b&gt;parses serialized inputs and applies tft" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" vertex="1">
           <mxGeometry x="650" y="210" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EVU7qZ22Sq5hBSIbINys-31" value="&lt;b&gt;run_fn - &lt;/b&gt;runs the model&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+        <mxCell id="EVU7qZ22Sq5hBSIbINys-31" value="&lt;b&gt;run_fn - &lt;/b&gt;runs the model&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" parent="oQLO-Vvc0zlfKHINRxK4-1" vertex="1">
           <mxGeometry x="510" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yg8gFJRuGw2p1zQWxalT-0" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;jupyter nbextension enable --py widgetsnbextension&lt;br&gt;&lt;br&gt;jupyter nbextension install --py symlink tensorflow_model_analysis&lt;br&gt;&lt;br&gt;jupyter nbextension enable --py tensorflow_model_analysis&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="oQLO-Vvc0zlfKHINRxK4-1">
+          <mxGeometry x="110" y="540" width="1250" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="GczQhoSl71wfgwsVMHlm" name="Page-4">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="v-DDrKWv23jcpNDHdtzr-0" />
         <mxCell id="v-DDrKWv23jcpNDHdtzr-1" parent="v-DDrKWv23jcpNDHdtzr-0" />
@@ -270,6 +273,17 @@
         </mxCell>
         <mxCell id="F0hGb0erI8557dS6_TQc-26" value="Inputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;" parent="v-DDrKWv23jcpNDHdtzr-1" vertex="1">
           <mxGeometry x="400" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8XW_RTMfEFZ5tMW9HP33" name="Page-5">
+    <mxGraphModel dx="1334" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="3nl3Xpb3wJDViwjyFAR5-0" />
+        <mxCell id="3nl3Xpb3wJDViwjyFAR5-1" parent="3nl3Xpb3wJDViwjyFAR5-0" />
+        <mxCell id="3nl3Xpb3wJDViwjyFAR5-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;jupyter nbextension enable --py widgetsnbextension&lt;br&gt;&lt;br&gt;jupyter nbextension install --py symlink tensorflow_model_analysis&lt;br&gt;&lt;br&gt;jupyter nbextension enable --py tensorflow_model_analysis&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="3nl3Xpb3wJDViwjyFAR5-1">
+          <mxGeometry x="160" y="250" width="1250" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
