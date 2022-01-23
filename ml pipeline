@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T09:15:27.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="a_ewS9GnFrqfKZkkqp_u" version="16.2.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-23T09:27:50.985Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="mTkliOYrd3RreKvNClLZ" version="16.1.2" type="github" pages="6">
   <diagram id="Ll1QlumUQR3pZ5yUz-EU" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,12 +278,73 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8XW_RTMfEFZ5tMW9HP33" name="Page-5">
-    <mxGraphModel dx="1334" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3nl3Xpb3wJDViwjyFAR5-0" />
         <mxCell id="3nl3Xpb3wJDViwjyFAR5-1" parent="3nl3Xpb3wJDViwjyFAR5-0" />
-        <mxCell id="3nl3Xpb3wJDViwjyFAR5-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;jupyter nbextension enable --py widgetsnbextension&lt;br&gt;&lt;br&gt;jupyter nbextension install --py symlink tensorflow_model_analysis&lt;br&gt;&lt;br&gt;jupyter nbextension enable --py tensorflow_model_analysis&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="3nl3Xpb3wJDViwjyFAR5-1">
+        <mxCell id="3nl3Xpb3wJDViwjyFAR5-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;jupyter nbextension enable --py widgetsnbextension&lt;br&gt;&lt;br&gt;jupyter nbextension install --py symlink tensorflow_model_analysis&lt;br&gt;&lt;br&gt;jupyter nbextension enable --py tensorflow_model_analysis&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="3nl3Xpb3wJDViwjyFAR5-1" vertex="1">
           <mxGeometry x="160" y="250" width="1250" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DHCvemdzp-0O5o4_F1ei" name="Page-6">
+    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-0" />
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-1" parent="JjY19v-WT6ucHMa0FcgH-0" />
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="JjY19v-WT6ucHMa0FcgH-1" source="JjY19v-WT6ucHMa0FcgH-2" target="JjY19v-WT6ucHMa0FcgH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Create an image of our python app using a Dockerfile&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="100" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-3" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="155" y="90" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JjY19v-WT6ucHMa0FcgH-1" source="JjY19v-WT6ucHMa0FcgH-4" target="JjY19v-WT6ucHMa0FcgH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;push Dockerfile to github repo&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="350" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="JjY19v-WT6ucHMa0FcgH-1" source="JjY19v-WT6ucHMa0FcgH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Build Dockerfile&lt;br&gt;on GCP instance to create image&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="600" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="JjY19v-WT6ucHMa0FcgH-1" source="JjY19v-WT6ucHMa0FcgH-8" target="JjY19v-WT6ucHMa0FcgH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-8" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Python application&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="-120" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="JjY19v-WT6ucHMa0FcgH-1" source="JjY19v-WT6ucHMa0FcgH-11" target="JjY19v-WT6ucHMa0FcgH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-11" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Push image to GCP container registery&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="827" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-12" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Pull image and run image on new GCP instance&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="827" y="430" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png;fontSize=20;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="-65" y="81" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-16" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE;fontSize=20;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="400" y="75.8" width="60" height="60.4" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-18" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.virtual_machine;fontSize=20;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="658" y="89" width="44.8" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-19" value="" style="editableCssRules=.*;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjM3Ny4xNTkzMDIxNjAyNjMwNSIgaGVpZ2h0PSIzMzYuMTYyNDk5MDAzMzEwOCIgdmlld0JveD0iLTAuMDU4MDAwMDA1NzgxNjUwNTQgMC4xMTI5OTk5OTgwMzMwNDY3MiA5OS43OTAwMDA5MTU1MjczNCA4OC45NDMwMDA3OTM0NTcwMyI+JiN4YTs8c3R5bGUgdHlwZT0idGV4dC9jc3MiPiYjeGE7CS5zdDB7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qxe2ZpbGw6I2FlY2JmYTt9JiN4YTsJLnN0MntmaWxsOiM0Mjg1ZjQ7fSYjeGE7PC9zdHlsZT4mI3hhOwk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTMuMjQzIDYyLjA5VjQ3LjA5NGwxMy4yMDEgOC40MTZ2MTUuMDM4em0tMzMuMDIxIDBWNDcuMDk0bDEzLjIwMSA4LjQxNnYxNS4wMzh6bTE2LjUxMS0zMi4yODVWMTQuODFsMTMuMjAxIDguNDE2djE1LjAzOHptNjIuOTk5IDMzLjk2VjI1LjQwM2wtOS41NjItMS44ODR2NDIuMTMxem0tOTkuNzg4IDBWMjUuNDAzbDkuNTYyLTEuODg0djQyLjEzMXoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNTMuMTg1IDQ3LjA5NGwxMy4yNTgtOC4yODcgMTMuMDE2IDguMjM0LTEzLjAxNiA4LjQ2OXptLTMzLjAyMSAwbDEzLjI1OC04LjI4NyAxMy4wMTYgOC4yMzQtMTMuMDE2IDguNDY5ek0zNi42NzUgMTQuODFsMTMuMjU4LTguMjg3IDEzLjAxNiA4LjIzNC0xMy4wMTYgOC40Njl6bTYzLjA1NiA0OC45NTZ2MTIuMjE3TDc3LjAxIDg5LjA1NVY3Ny43NTJ6bTAtMzguMzYzVjEzLjE4Nkw3Ny4wMS4xMTN2MTEuMzAzek0tLjA1OCA2My43NjZ2MTIuMjE3bDIyLjcyMSAxMy4wNzNWNzcuNzUyem0wLTM4LjM2M1YxMy4xODZMMjIuNjYzLjExM3YxMS4zMDN6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MiIgZD0iTTY2LjQ0NCA3MC41NDdWNTUuNTFsMTMuMDE2LTguNDY5djE1LjR6bS0zMy4wMjEgMFY1NS41MWwxMy4wMTYtOC40Njl2MTUuNHptMTYuNTExLTMyLjI4NVYyMy4yMjVsMTMuMDE2LTguNDY5djE1LjR6bTQ5Ljc5OCAyNS41MDNsLTkuNTYyIDUuODh2LTMuOTk2em0wLTM4LjM2M2wtOS41NjItNS44OHYzLjk5NnpNLS4wNTggNjMuNzY2bDkuNTYyIDUuODh2LTMuOTk2em0wLTM4LjM2M2w5LjU2Mi01Ljg4djMuOTk2eiIvPiYjeGE7PC9zdmc+;fontSize=20;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="890" y="75.8" width="57.78" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JjY19v-WT6ucHMa0FcgH-20" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.virtual_machine;fontSize=20;" vertex="1" parent="JjY19v-WT6ucHMa0FcgH-1">
+          <mxGeometry x="760" y="450" width="44.8" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
